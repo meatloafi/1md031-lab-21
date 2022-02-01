@@ -1,1 +1,130 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>Burger selector</title>
+    <meta charset="utf-8" />
+
+<body>
+    <header>
+        <h1>Välkommen till BurgerOnline</h1>
+    </header>
+    <h2> Select burger</h2>
+    <main>
+        <section name="Burger Select">
+            <nav> This is where you execute burger selection</nav>
+            <div style="display: inline-block;">
+                <style>
+                    h3 {
+                        text-align: center;
+                    }
+                </style>
+
+                <h3>Big Cal Burger</h3>
+                <figure>
+                    <img src="img/burger1.jpg" width="300" height="300" alt="smask" title="Big Cal Burger">
+                </figure>
+                <ul>
+                    <li>Cheese</li>
+                    <li>cheese</li>
+                    <li>Bread</li>
+                    <li>Grease</li>
+                    <li>Contains lactose, gluten & 1 week worth of calories</li>
+                </ul>
+            </div>
+
+            <div style="display: inline-block;">
+
+                <h3>Humble Burger</h3>
+                <figure>
+                    <img src="img/burger2.jpg" width="300" height="300" alt="smask" title="Humble">
+                </figure>
+                <ul>
+                    <li>Modest meal</li>
+                    <li>Be grateful for what you already have</li>
+                    <li>Less is more</li>
+                    <li>Contains gluten & wisdom</li>
+                </ul>
+            </div>
+
+            <div style="display: inline-block;">
+                <h3> Unethical Burger</h3>
+                <figure>
+                    <img src="img/burger3.jpg" width="300" height="300" alt="smask" title="Not modest">
+                </figure>
+                <ul>
+                    <li>Not modest</li>
+                    <li>Very unethical</li>
+                    <li>Worse with every bite</li>
+                    <li><a href="https://en.wikipedia.org/wiki/List_of_allergens">List of allergens</a> </li>
+                </ul>
+            </div>
+
+        </section>
+        <section name="Customer Info">
+            <h2>Customer Information</h2>
+            <nav> This is where you provide necessary information</nav>
+            <section id="contact">
+                <h2>Delivery Information</h2>
+                <form>
+                    <p>
+                        <label for="Full Name">Full Name</label><br>
+                        <input type="text" id="name" name="fn" required="required" placeholder="First and Last name">
+                    </p>
+                    <p>
+                        <label for="E-mail">E-mail</label><br>
+                        <input type="text" id="mail" name="en" required="required" placeholder="E-mail adress">
+                    </p>
+                    <p>
+                        <label for="Street">Street</label><br>
+                        <input type="text" id="street" name="sn" required="required" placeholder="Street name">
+                    </p>
+                    <p>
+                        <label for="House">House</label><br>
+                        <input type="text" id="house" name="hs" required="required" placeholder="House number">
+                    </p>
+                    <section id ="payment info">
+                        <nav>Payment Options</nav>
+                        <p>
+                            <select id="Payment options" name="po">
+                                <option>Credit Card </option>
+                                <option>Cash at delivery</option>
+                                <option>Klarna</option>
+                                <option>Swish</option>
+                                <option>Billing</option>
+                            </select>
+                         </p>
+                    
+                         
+                    </section>
+                    <section id ="gender">
+                    <nav>Gender</nav>
+                    <input type="radio" name="gender" value="Male"> Male<br>
+                    <input type="radio" name="gender" value="Female"> Female<br>
+                    <input type="radio" name="gender" value="Non-binary"> Non-binary<br>
+                    <input type="radio" name="gender" value="Undisclosed"> Undisclosed<br>
+                    
+                    </section>
+                    
+                    <button type="submit">
+                        <img src ="img/burgic.jpg" width="20" height="20">
+                        Place order
+                    </button>
+                </form>
+            </section>
+            
+        </section>
+    </main>
+    <hr>
+    <footer>
+        © 2021 Sussy Borg AB
+    </footer>
+</body>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
